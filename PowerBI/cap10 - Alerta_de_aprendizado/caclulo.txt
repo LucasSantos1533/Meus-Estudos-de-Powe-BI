@@ -1,0 +1,24 @@
+Iremos criar uma função na linguagem R, para calcular o valor de moda.
+
+para criar uma função na linguagem R, utlizamos a palavra reservada (function), palavra reservada, faz parte da sintaxe de uma linguagem
+
+
+Usamos o conceito de modularização, que e um dos conceitos mais importantes da programação. que é oque faz uma função, usamos para não ficar repetindo código.
+usamos um bloco de código uma vez, fica na memória do computador. e mudamos só os argumentos.
+
+
+
+Medidas de dispersão -> variancia e desvio padrão
+
+para calcular a variância, a função e "var".
+
+var(Nome da tabela$Nomeda coluna)
+exemplo:
+
+var(vendas$valor).
+
+
+Para calcular o Desvio Padrão, a função e "sd".
+exemplo:
+sd(vendas$Valor)
+

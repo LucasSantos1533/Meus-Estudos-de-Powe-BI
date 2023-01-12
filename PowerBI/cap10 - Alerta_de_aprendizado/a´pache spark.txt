@@ -1,0 +1,61 @@
+O apache Spark seria usado antes de usar o Power BI, ou seja o Apache Spark s
+usariamos para processamentos de dados, após os dados estarem devidamentes processados, ai conectamos com o Power BI e criamos os gráficos.
+
+O apache Spark vai servir como uma fonte de dados para o Power BI
+
+
+
+Computação em nuvem - As empresas não precisam instalar computadores com spark, não precisa sequer ter computadores com cluster. so ter um ambiente em nuvem -> cloud computer
+
+
+
+Para se tabalhar com Machine learning precisamos de dados históricos.
+ dados históricos e coletar dados da empresa.
+ 
+ 
+Analise Exporatória, limpeza e Transformação
+
+Primeira coisa que fizemos foi remover a coluna ID, porque ?
+porque não era nenhum ideficador único, então não agregava nada, era só uma  de linhas.
+
+
+Trabalhando com  ciência de dados recebemos um conjunto de dados contendo linhas e colunas.
+Cada coluna representa um atributo ( uma variavel) e cada linha representa uma observação. Um registro do evento.
+
+
+Em machine Learning teremos que treinar o modelo e depois de treinao teremos que testá-lo, não podemos testar e treinar com os mesmos dados.
+
+
+
+
+
+Criando o modelo de teste de machine Learning a gente utiliza um algoritmo para fazer esse teste
+o algoritmo primeiramente utilizado e o  randomForest a sintaxe do mesmo e basicamente assim:
+
+modelo_v1 <- randomForest(inadimplente ~ ., data = dados_treino
+
+modelo_v1 -> É o nome do modelo que estamos criando
+
+randomForest -> É o nome da função e aqui estamos chamando a função.
+
+inadimplente - Nome da variavel, aquilo que quero prevê.
+
+data - Qual e o dados que vamos utilizar, aqui por exemplo e o "dados_treino"
+
+~ - Representa uma formula
+
+. - Representa todas a variaveis preditoras, para não escrever uma por uma.
+
+
+
+
+Anotações aprendizados:
+
+Machine learnig - criamos dois modelos um de aprendizados e outro de teste
+
+Publicar  um  modelo  de  Machine  Learning  significa usar  o modelo  para  resolver  o problema para o qual ele foi criado.
+ Se o objetivo do modelo é prever o valor de casas(por exemplo),
+ alimentamos o modelo com novos dados de entrada e o modelo gera as saídas,
+ ou seja, as previsões.
+
+

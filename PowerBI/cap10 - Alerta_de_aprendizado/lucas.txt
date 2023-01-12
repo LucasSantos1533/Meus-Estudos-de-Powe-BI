@@ -1,0 +1,75 @@
+Gráficos com Linguagem R - Barplot, Pie Chart, Pie Chart 3D - parte 1/2
+
+
+http://www.r-graph-gallery.com/
+
+
+Gráficos com Linguagem R - Treemap, Histograma
+
+para adicionar o pacote Treemap utilizamos:
+
+install.packages("treemap")
+library(treemap)
+
+Obs: Um pacote e um conjunto de funções, por exemplo tenho várias funções no pacote treemap
+
+
+
+Habilitando Script R no Power BI
+
+É so ir no ícone R que tem nos menus em meio aos gráficos e clicar, após so habilitar a linguagem R no power BI
+
+
+No powe Bi não necessita instalar o pacote do ggplot2, instala no visual studio R e so carrega no powe BI
+usando o libray(ggplot)
+
+
+
+Na pratica com analise de dados e ciência de dados - A maior parte do trabalho será com limpeza e trnasformação.
+
+
+
+
+Se quisermos criar um script R para limpeza e transformação dos dados devemos ir no power query
+
+
+
+
+Para trabalhar com o mini Projeto utilizaremos 3 pacote da linguagem R:
+
+ Os pacotes são:
+dplyr - Pacote para manipulação de dados.
+data.table - Pacote para transformação de dados.
+ggplot2 - pacote usado para construção de gráficos.
+
+Na primeira tarefa do projeot sumarizamps os dados com as médias de cada coluna.
+
+1° utilizamos o pacote (dplyr), que oferece a função -> summarize para a sumarização.
+2° Para a sumarizar vamos aplicar um group_by, que vai agrupar os dados.
+e calcularemos as medias de cada colunas numericas.
+
+
+Tarefa 2 - queremos extrair o valor inteiro de uma das colunas decimais.
+1° Primeiro vamos carregar o pacote data.table
+2° Vamos converte o nosso conjunto de dados em data.table
+  usando o comando:
+  dados_iris_id <- data.table(dados_iris)
+
+
+
+
+Linguagem R - É uma otima ferramenta para analíse e estatisticas
+
+Linguagem Python - A linguagem Python se tornou um padrão para machine Learn e Inteligência Artificial.
+ 
+
+Vamos usar no curso o Jupyter Notebook
+
+para usar o jupyter notebook entramos no cmd -> utilizamos o "cd" e o diretório da pasta C:\PowerBI\Cap 13 - Linguagem Python Powe Bi para Manipulação de Dados,
+
+ após isso colocamos o código do jupyter notebook, que e onde vamos usar os códigos python.
+
+
+
+
+Tabelas criadas com Pandas tem métodos e atributos
